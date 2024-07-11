@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3} from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, customer3, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3} from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -84,8 +84,14 @@ export const reviews = [
     {
         imgURL: customer2,
         customerName: 'Lota Mongeskar',
-        rating: 4.5,
+        rating: 4.9,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+    },
+    {
+        imgURL: customer3,
+        customerName: 'Sarah Johnson',
+        rating: 4.5,
+        feedback: "Nike has transformed my workout routine with their top-notch gear and cutting-edge technology."
     }
 ];
 
